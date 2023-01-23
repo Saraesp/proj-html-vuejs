@@ -15,7 +15,7 @@ export default {
             <!-- Logo -->
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                <img src="../assets/image/avadabarbers-logo-x2.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <img src="../assets/image/avadabarbers-logo-x2.png" alt="Logo" width="180" height="60" class="d-inline-block align-text-top">
                 </a>
             </div>
             <!-- Burger -->
