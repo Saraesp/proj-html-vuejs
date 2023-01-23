@@ -1,6 +1,10 @@
 <script>
+import AppBurger from './AppBurger.vue'
+
 export default {
-    
+    components: {
+        AppBurger,
+    }
 }
 </script>
 
@@ -11,11 +15,13 @@ export default {
             <!-- Logo -->
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                <img src="" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                <img src="../assets/image/avadabarbers-logo-x2.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                 </a>
             </div>
             <!-- Burger -->
-
+            <div>
+                <AppBurger />
+            </div>
         </nav>
     </header>
 </template>
