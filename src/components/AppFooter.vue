@@ -10,7 +10,7 @@ export default {
         <!-- PRIMA COLONNA -->
         <div class="card-group">
             <div class="card">
-                <img src="" class="card-img-top" alt="...">
+                <img src="../assets/image/avadabarbers_footer_shop_image.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <button></button>
                 </div>

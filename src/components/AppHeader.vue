@@ -34,7 +34,7 @@ export default {
                     <button type="button" class="btn">LEARN MORE</button> 
                 </div>
                 <div class="col-right">
-                    <img src="../assets/image/avadabarbers_hero_focalmirror.png" alt="" width="500" height="700">
+                    <img src="../assets/image/avadabarbers_hero_focalmirror.png" alt="" width="520" height="700">
                 </div>
             </div>
         </div>
@@ -48,40 +48,45 @@ export default {
     header{
         background-image: url(../assets/image/avadabarbers-homepage-hero-bg.jpg);
         background-size: cover;
-
-
+        height: 900px;
 
 
         nav{
             display: flex;
             justify-content: space-between;
+            padding-top: 50px;
         }
         
         .btn{
             background-color: transparent;
             border: 2px solid $color-beige;
+            border-radius: 0;
             color: $color-beige;
-            padding: 20px;
-            font-size: 15px;
+            padding: 10px 35px;
+            font-size: 20px;
+            margin-top: 40px;
             
         }
         .btn:hover{
-            border-color: rgb(200, 115, 5);
-            color: rgb(200, 115, 5);
+            border-color: rgba(255, 161, 39, 0.528);
+            color: rgba(255, 161, 39, 0.528);
         }
 
         hr{
-            width: 200px;
-            color: $color-beige;
+            width: 220px;
+            border: 2px solid $color-beige;
+            opacity: 2;
         }
 
         h1{
-            font-size: 55px;
+            font-size: 90px;
             color: $color-white;
+            padding-top: 150px;
         }
 
         h4{
-            color: $color-grey;
+            color: rgba(128, 128, 128, 0.688);
+            margin-top: 35px;
         }
 
        .row{
@@ -89,8 +94,8 @@ export default {
 
             .col-right{
                 position: absolute;
-                top: 0;
-                left: 750px;
+                top: -20px;
+                left: 700px;
             }
         }
 

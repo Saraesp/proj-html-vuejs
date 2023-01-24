@@ -1,4 +1,6 @@
 <script>
+
+
 export default {
     
 }
@@ -17,10 +19,10 @@ export default {
                 ...
             </div>
         </div>
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-dark">
             <div class="container">   
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
         </nav>
@@ -30,5 +32,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+     @use '../style/partials/variables' as *;
     
 </style>
