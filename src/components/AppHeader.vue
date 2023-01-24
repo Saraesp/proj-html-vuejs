@@ -27,15 +27,13 @@ export default {
 
         <div class="container">
             <div class="row">
-                <div class="col-left">
                     <h1 class="text-light">Barber Shop</h1>
                     <hr>
                     <h4>The pinnacle of Male Grooming</h4>
-                    <button type="button" class="btn">LEARN MORE</button> 
-                </div>
-                <div class="col-right">
-                    <img src="../assets/image/avadabarbers_hero_focalmirror.png" alt="" width="520" height="700">
-                </div>
+                    <button type="button" class="btn btn-style">LEARN MORE</button> 
+                    <div class="">
+                        <img src="../assets/image/avadabarbers_hero_focalmirror.png" width="500px" alt="">
+                    </div>
             </div>
         </div>
 
@@ -44,11 +42,13 @@ export default {
 
 <style lang="scss" scoped>
     @use '../style/partials/variables' as *;
+    @use '../style/partials/mixins' as *;
     
     header{
         background-image: url(../assets/image/avadabarbers-homepage-hero-bg.jpg);
         background-size: cover;
-        height: 900px;
+        padding: 0 100px;
+        height: 850px;
 
 
         nav{
@@ -58,14 +58,10 @@ export default {
         }
         
         .btn{
-            background-color: transparent;
-            border: 2px solid $color-beige;
-            border-radius: 0;
-            color: $color-beige;
             padding: 10px 35px;
             font-size: 20px;
             margin-top: 40px;
-            
+            width: 200px;
         }
         .btn:hover{
             border-color: rgba(255, 161, 39, 0.528);
@@ -91,15 +87,15 @@ export default {
 
        .row{
             position: relative;
-
-            .col-right{
-                position: absolute;
-                top: -20px;
-                left: 700px;
+            
+            img{
+               position: absolute;
+               right: 60px; 
+               top: -15px;
             }
         }
-
-
+        
+        
     }
 
 

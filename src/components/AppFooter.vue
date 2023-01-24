@@ -12,7 +12,7 @@ export default {
             <div class="card">
                 <img src="../assets/image/avadabarbers_footer_shop_image.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <button></button>
+                    <button class="button btn-style">SHOP OUR RANGE NOW</button>
                 </div>
             </div>
 
@@ -36,13 +36,15 @@ export default {
             </div>
             
         </div>
-
-        <div>
-            <p></p>
-        </div>
     </footer>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
     
+     @use '../style/partials/variables' as *;
+
+    .button{
+        padding: 10px;
+        font-size: 14px;
+    }
 </style>
