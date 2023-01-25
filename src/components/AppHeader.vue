@@ -27,7 +27,7 @@ export default {
 
         <div class="container">
             <div class="row">
-                    <h1 class="text-light">Barber Shop</h1>
+                    <h1 class="text-light title">Barber Shop</h1>
                     <hr>
                     <h4>The pinnacle of Male Grooming</h4>
                     <button type="button" class="btn btn-style">LEARN MORE</button> 

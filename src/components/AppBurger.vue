@@ -1,22 +1,31 @@
 <script>
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
+import { menu } from '../menu.js';
 
 export default {
-    
+    data(){
+        return{
+            menu
+        }
+    }
 }
 </script>
 
 <template lang="">
         <div>
+            <font-awesome-icon icon="fa-brands fa-twitter" />
         </div>
 
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
             <div class="offcanvas-header">
                 <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <button type="button" class="btn-close color-btn" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
-                ...
+            <div class="offcanvas-body color-light" >
+                <ul v-for="item in menuList">
+                    <li>{{ item }}</li>
+                </ul>
             </div>
         </div>
         <nav class="navbar navbar-dark">
@@ -34,5 +43,12 @@ export default {
 <style lang="scss" scoped>
      @use '../style/partials/variables' as *;
 
-    
+    #offcanvasRight{
+        width: 100%;
+        background-color: black;
+    }
+
+    .color-btn{
+       background-color: $color-beige;
+    }
 </style>

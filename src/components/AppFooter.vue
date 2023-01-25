@@ -52,8 +52,8 @@ export default {
             
         </div>
 
-        <div>
-            <p></p>
+        <div class="backround-grey text-center">
+            <p>Copyright 2012 - 2023 | Avada Theme by <a href="">ThemeFusion</a>  | All Rights Reserved | Powered by <a href=""> WordPress</a></p>
         </div>
     </footer>
 </template>
@@ -74,13 +74,13 @@ export default {
     
     .card img{
         width: 350px;
-        margin-left: 55px;
+        margin-left: 90px;
         margin-top: 30px;
     }
 
     .card-center img{
         width: 200px;
-        margin-left: 120px;
+        margin-left: 180px;
         margin-top: 50px
     }
 
@@ -96,6 +96,23 @@ export default {
     .list-follow p{
         color: $color-beige;
         font-weight: 600;
+    }
+
+    .backround-grey{
+        background-color: rgb(65, 64, 64);
+        height: 100px;
+
+        p{
+            color: rgb(151, 149, 149);
+            padding-top: 35px;
+            font-size: 12px;
+
+            a{
+                text-decoration: none;
+                color: $color-beige;
+            }
+        }
+
     }
 
 </style>

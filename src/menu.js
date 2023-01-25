@@ -6,31 +6,38 @@ export const menu = reactive({
             menuList: [
                 {
                    title: "Home",
-                   url: "/"
+                   url: "/",
+                   image: 'assets/image/avadabarbers-homepage-hero-bg.jpg'
                 },
                 {
                     title: 'About Us',
-                    url: '/'
+                    url: '/',
+                    image: 'assets/image/avadabarbers-homepage-hero-bg.jpg'
                  },
                  {
                     title: 'Service',
-                    url: '/'
+                    url: '/',
+                    image: 'assets/image/avadabarbers-homepage-hero-bg.jpg'
                  },
                  {
                     title: 'Shop',
-                    url: '/'
+                    url: '/',
+                    image: 'assets/image/avadabarbers-homepage-hero-bg.jpg'
                  },
                  {
                     title: 'Out Team',
-                    url: '/'
+                    url: '/',
+                    image: 'assets/image/avadabarbers-homepage-hero-bg.jpg'
                  },
                  {
                     title: 'Blog',
-                    url: '/'
+                    url: '/',
+                    image: 'assets/image/avadabarbers-homepage-hero-bg.jpg'
                  },
                  {
                     title: 'Contact Us',
-                    url: '/'
+                    url: '/',
+                    image: 'assets/image/avadabarbers-homepage-hero-bg.jpg'
                  },
                  
             ]
